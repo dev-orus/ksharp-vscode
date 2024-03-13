@@ -5,6 +5,7 @@
   "repository": {
     "url": "https://github.com/dev-orus/ksharp-vscode"
   },
+  "publisher": "Klesti",
   "version": "0.0.1",
   "icon": "icon.jpg",
   "engines": {
