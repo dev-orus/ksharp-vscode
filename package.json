@@ -1,0 +1,42 @@
+{
+  "name": "ksharp",
+  "displayName": "K#",
+  "description": "The vscode extension for K#",
+  "repository": {
+    "url": "https://github.com/dev-orus/ksharp-vscode"
+  },
+  "version": "0.0.1",
+  "icon": "icon.jpg",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ksharp",
+        "icon": {
+          "dark": "icon.png",
+          "light": "icon.png"
+        },
+        "aliases": [
+          "K#",
+          "ksharp"
+        ],
+        "extensions": [
+          ".ks"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ksharp",
+        "scopeName": "source.ksharp",
+        "path": "./syntaxes/ksharp.tmLanguage.json"
+      }
+    ]
+  }
+}
