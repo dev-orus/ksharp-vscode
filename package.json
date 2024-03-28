@@ -1,13 +1,13 @@
 {
-  "name": "ksharp",
-  "displayName": "K#",
-  "description": "The vscode extension for K#",
+  "name": "wisp",
+  "displayName": "Wisp",
+  "description": "The vscode extension for Wisp",
   "repository": {
-    "url": "https://github.com/dev-orus/ksharp-vscode"
+    "url": "https://github.com/dev-orus/wisp-vscode"
   },
   "publisher": "Klesti",
-  "version": "0.0.2",
-  "icon": "icon.jpg",
+  "version": "0.0.3",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -17,26 +17,26 @@
   "contributes": {
     "languages": [
       {
-        "id": "ksharp",
+        "id": "wisp",
         "icon": {
           "dark": "icon.png",
           "light": "icon.png"
         },
         "aliases": [
-          "K#",
-          "ksharp"
+          "Wisp",
+          "wisp"
         ],
         "extensions": [
-          ".ks"
+          ".ws"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "ksharp",
-        "scopeName": "source.ksharp",
-        "path": "./syntaxes/ksharp.tmLanguage.json"
+        "language": "wisp",
+        "scopeName": "source.wisp",
+        "path": "./syntaxes/wisp.tmLanguage.json"
       }
     ]
   }
